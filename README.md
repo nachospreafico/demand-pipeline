@@ -8,6 +8,7 @@ This project simulates a real-world demand planning workflow using a mock datase
 ## 📌 Overview
 
 This project showcases:
+
 - Reading and parsing `.csv` files using Python’s built-in `csv` module
 - Data cleaning (handling missing values, type conversion)
 - Computing basic statistics (e.g., average demand, top products)
@@ -23,18 +24,18 @@ This project showcases:
 demand_pipeline/
 │
 ├── data/
-│   ├── raw/
-│   │   └── mock_demand_planning_data.csv   ← Put your CSV here
-│   └── clean/
-│       └── cleaned_data.csv                ← Output will go here
+│ ├── raw/
+│ │ └── mock_demand_planning_data.csv
+│ └── clean/
+│ └── cleaned_data.csv
 │
 ├── src/
-│   ├── reader.py       ← For reading raw CSV manually
-│   ├── cleaner.py      ← For handling missing values, type checks
-│   ├── analyzer.py     ← For calculating summaries
-│   └── writer.py       ← For writing output CSV
+│ ├── reader.py ← For reading raw CSV manually
+│ ├── cleaner.py ← For handling missing values, type checks
+│ ├── analyzer.py ← For calculating summaries
+│ └── writer.py ← For writing output CSV
 │
-├── pipeline.py         ← Main script that calls the above in order
+├── pipeline.py ← Main script that calls the above in order
 └── README.md
 
 ---
@@ -64,6 +65,7 @@ P003 → 46880 units
 ## 📂 Dataset Info
 
 A mock dataset was generated with:
+
 - 1,000 rows
 - 20 unique product IDs
 - 4 regions and 3 categories
@@ -78,6 +80,7 @@ A mock dataset was generated with:
    ```bash
    git clone https://github.com/nachospreafico/demand-pipeline.git
    cd demand-pipeline
+   ```
 
 👩‍💻 Author
 Ignacio Spreafico
