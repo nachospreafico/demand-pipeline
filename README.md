@@ -82,10 +82,12 @@ A mock dataset was generated with:
    cd demand-pipeline
    ```
 
-👩‍💻 Author
-Ignacio Spreafico
+## 👩‍💻 Author
+
+**Ignacio Spreafico**
 MD | Demand Planner | Aspiring Data Scientist
 LinkedIn Profile — (https://www.linkedin.com/in/ignacio-spreafico)
 
-📝 License
+## 📝 License
+
 This project is licensed under the MIT License.
