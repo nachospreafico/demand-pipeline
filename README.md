@@ -30,12 +30,12 @@ demand_pipeline/
 │ └── cleaned_data.csv
 │
 ├── src/
-│ ├── reader.py ← For reading raw CSV manually
-│ ├── cleaner.py ← For handling missing values, type checks
-│ ├── analyzer.py ← For calculating summaries
-│ └── writer.py ← For writing output CSV
+│ ├── reader.py
+│ ├── cleaner.py
+│ ├── analyzer.py
+│ └── writer.py
 │
-├── pipeline.py ← Main script that calls the above in order
+├── pipeline.py
 └── README.md
 
 ---
